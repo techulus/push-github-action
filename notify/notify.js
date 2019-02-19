@@ -22,7 +22,8 @@ request({
 	headers: {
 		'x-api-key': process.env.API_KEY
 	},
-	body: JSON.stringify(message)
+	body: JSON.stringify(message),
+	json: true
 }, (err, response) => {
 	if (err) {
 		return console.error(err.toString())
