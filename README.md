@@ -1,6 +1,7 @@
 <img height="50px" src="https://push.techulus.com/img/logo.svg"/>
 
 # Github Action for Push by Techulus
+Receive push notification to your devices using Github Actions
 
 ## Pre-requisites
 
