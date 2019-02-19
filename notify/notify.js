@@ -11,7 +11,6 @@ const message = {
 
 if (!process.env.API_KEY) {
 	return console.error('API KEY is missing')
-
 }
 
 console.log("Sending message", JSON.stringify(message))
@@ -22,7 +21,7 @@ request({
 	headers: {
 		'x-api-key': process.env.API_KEY
 	},
-	body: JSON.stringify(message),
+	body: message,
 	json: true
 }, (err, response) => {
 	if (err) {
