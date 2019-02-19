@@ -20,3 +20,6 @@ To run this action you'll need:
 ## DEMO
 
 <img src="https://github.com/techulus/push-github-action/blob/master/setup.gif?raw=true"/>
+
+## Support
+Feature Request, Bugs and Ideas can be added [here.](https://github.com/techulus/push-github-action/issues)
