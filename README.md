@@ -14,7 +14,7 @@ To run this action you'll need:
 
 1. Create the workflow and choose any event of your choice.
 2. Add a new action, enter `techulus/push-github-action@master` and click use.
-3. Add environment variables `API_KEY` (your API key) and `MESSAGE` (notification message)
+3. Add a new secret `API_KEY` (your API key) and an environment variable `MESSAGE` (notification message)
 4. Commit your changes!
 
 ## DEMO
