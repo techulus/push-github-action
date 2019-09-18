@@ -6,7 +6,7 @@ const eventPayload = JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH, '
 
 const message = {
 	body: process.env.MESSAGE || 'No message specified',
-	title: `Github Notification from ${eventPayload.repository.full_name}`
+	title: `GitHub Notification from ${eventPayload.repository.full_name}`
 }
 
 if (!process.env.API_KEY) {
