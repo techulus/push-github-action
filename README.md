@@ -22,7 +22,7 @@ To run this action you'll need:
 
 ### Send notification on every commit
 
-```
+```yaml
 name: Push on commit
 
 on: [push]
@@ -42,7 +42,7 @@ jobs:
 
 ### Send notification using schedule trigger
 
-```
+```yaml
 name: Test push every day
 
 on: 
