@@ -1,13 +1,10 @@
-<img height="50px" src="https://push.techulus.com/img/logo.svg"/>
-
-# Github Action for Push by Techulus
+# Github Action for Push Notification
 Receive push notification to your devices using Github Actions
 
 ## Pre-requisites
 
 To run this action you'll need:
 
-- To be part of the Actions beta.
 - An API key from Push (https://push.techulus.com/), to get the API key you've to install Push's iOS or Android app and create an account.
 
 ## Setup
