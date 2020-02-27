@@ -1,3 +1,5 @@
+<img width="100" src="https://push.techulus.com/static/media/logo.5b69d510.svg"/>
+
 # Github Action for Push Notification
 Receive push notification to your devices using Github Actions
 
@@ -63,4 +65,4 @@ jobs:
 ```
 
 ## Support
-Feature Request, Bugs and Ideas can be added [here.](https://github.com/techulus/push-github-action/issues)
+Feature Request, Bugs and Ideas can be added [here.](https://pushbytechulus.freshdesk.com/support/tickets/new)
