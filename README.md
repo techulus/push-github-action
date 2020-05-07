@@ -15,7 +15,7 @@ To run this action you'll need:
 2. Copy and paste the following snippet into your .yml file.
 ```
 - name: Send Push Notification
-  uses: techulus/push-github-action@v0.0.2
+  uses: techulus/push-github-action@1.0.0
 ```
 3. Add a new secret `API_KEY` (your API key) and an environment variable `MESSAGE` (notification message)
 4. Commit your changes!
@@ -36,7 +36,7 @@ jobs:
 
     steps:
     - name: Send Push Notification
-      uses: techulus/push-github-action@v0.0.2
+      uses: techulus/push-github-action@1.0.0
       env:
         API_KEY: ${{ secrets.API_KEY }}
         MESSAGE: "There is a new commit!"
@@ -58,10 +58,32 @@ jobs:
 
     steps:
     - name: Send Push Notification
-      uses: techulus/push-github-action@v0.0.2
+      uses: techulus/push-github-action@1.0.0
       env:
         API_KEY: ${{ secrets.API_KEY }}
         MESSAGE: "Test notification from GitHub"
+```
+
+### Customize notification title / add a link
+```yaml
+name: Test push every day
+
+on: 
+  schedule:
+    - cron: '* 0 * * *'
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Send Push Notification
+      uses: techulus/push-github-action@1.0.0
+      env:
+        API_KEY: ${{ secrets.API_KEY }}
+        MESSAGE: "Test notification from GitHub 🧪"
+        TITLE: Testing
+        LINK: https://github.com/techulus/push-github-action
 ```
 
 ## Support
