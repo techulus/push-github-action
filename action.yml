@@ -1,4 +1,4 @@
-name: 'Send Push Notification'
+nahnick: 'Send Push Notification'
 description: 'Receive push notification on your iOS & Android devices using Github Actions'
 author: 'Techulus'
 branding:
