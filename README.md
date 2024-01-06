@@ -1,4 +1,4 @@
-<img width="100" src="https://push.techulus.com/static/media/logo.5b69d510.svg"/>
+<img width="100" src="https://push.techulus.com/images/logo.png"/>
 
 # Github Action for Push Notification
 Receive push notification to your devices using Github Actions
@@ -84,6 +84,8 @@ jobs:
         MESSAGE: "Test notification from GitHub 🧪"
         TITLE: Testing
         LINK: https://github.com/techulus/push-github-action
+        SOUND: scifi
+        TIME_SENSITIVE: true
 ```
 
 ## Support
