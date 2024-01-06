@@ -38,7 +38,7 @@ if (process.env.TIME_SENSITIVE) {
 }
 
 if (process.env.SOUND) {
-  message.sound = process.env.sound || "default";
+  message.sound = process.env.SOUND || "default";
   if (!VALID_SOUNDS.includes(message.sound)) {
     return console.error("Invalid sound specified");
   }
