@@ -1,6 +1,6 @@
 {
   "name": "techulus-push-notify",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Github action for Push by Techulus",
   "dependencies": {
     "request": "^2.88.0"
