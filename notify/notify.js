@@ -25,6 +25,10 @@ const message = {
     `GitHub Notification from ${process.env.GITHUB_REPOSITORY}`,
 };
 
+if (process.env.CHANNEL) {
+  message.channel = process.env.CHANNEL;
+}
+
 if (process.env.LINK) {
   message.link = process.env.LINK;
 }
